@@ -53,7 +53,7 @@ La red no solo se ajusta a datos, sino tambien a las leyes fisicas. Considerar q
 * Residuo de la PDE:
 
 $$
-r_{F}[u_{\theta}](z) = F(u_{\theta}(z);\gamma) - f(z)
+r_{F}u_{\theta}(z) = F(u_{\theta}(z);\gamma) - f(z)
 $$
 
 * Residuo de condiciones de frontera:
@@ -61,6 +61,7 @@ $$
 $$
 r_{B}[u_{\theta}](z) = B(u_{\theta}(z):\gamma) - g(z)
 $$
+
 #### <ins>Funcion de perdida:</ins>
 La PINN minimiza una **perdida compuesta:**
 
