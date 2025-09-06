@@ -59,7 +59,7 @@ $$
 * Residuo de condiciones de frontera:
 
 $$
-r_{B}[u_{\theta}](z) = B(u_{\theta}(z):\gamma) - g(z)
+r_{B}\[u_{\theta}\](z) = B(u_{\theta}(z):\gamma) - g(z)
 $$
 
 #### <ins>Funcion de perdida:</ins>
@@ -73,13 +73,13 @@ Donde:
 * $$L_{F}(\theta)$$ : mide el error de la PDE en los puntos $$z_{i}$$
 
 $$
-L_{F}(\theta) = \frac{1}{N_c} \sum_{i=1}^{N_c} \left\| r_F[u_{\theta}](z_i)\right\|^2
+L_{F}(\theta) = \frac{1}{N_c} \sum_{i=1}^{N_c} \left\| r_F\[u_{\theta}\](z_i)\right\|^2
 $$
 
 * $$L_{B}(\theta)$$ : mide el error en condiciones de frontera/borde
   
 $$
-L_{F}(\theta) = \frac{1}{N_b} \sum_{i=1}^{N_b} \left\| r_B[u_{\theta}](z_i)\right\|^2
+L_{F}(\theta) = \frac{1}{N_b} \sum_{i=1}^{N_b} \left\| r_B\[u_{\theta}\](z_i)\right\|^2
 $$
 
 * $$L_{data}(\theta)$$ : error con respecto a datos observados (si existen)
