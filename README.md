@@ -87,7 +87,7 @@ $$
 L_{F}(\theta) = \frac{1}{N_b} \sum_{i=1}^{N_b} \left\| r_{\theta}(z_i) - u^*(z_i) \right\|^2
 $$
 
-#### Optimizacion
+#### <ins>Optimizacion</ins>
 Se resuelve:
 
 $$
